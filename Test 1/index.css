@@ -1,0 +1,42 @@
+*{
+    margin: 0 auto;
+}
+
+
+/* 사이드 바 */
+#Side{
+    position: fixed;
+    width: 100%;
+}
+
+.Bar{
+    width: 1200px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.Bar > div
+{
+    height: 30px;
+}
+
+
+
+/* 상단 바 */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#Ori {
+    height: 50px;
+    background-color: gray;
+
+    text-align: center;
+}
+
+#Ori > p 
+{
+    padding-top: 15px;
+}
